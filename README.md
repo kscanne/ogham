@@ -7,21 +7,23 @@ Cuirtear luach 0 i ngach tabhall nuair a thosaíonn an meaisín.
 
 Tacaíonn an teanga leis na horduithe seo a leanas:
 
-|ᚆ     |incrimintigh an luach i dtabhall 1|
-|ᚇ     |incrimintigh an luach i dtabhall 2|
-|ᚈ     |incrimintigh an luach i dtabhall 3|
-|ᚉ     |incrimintigh an luach i dtabhall 4|
-|ᚊ     |incrimintigh an luach i dtabhall 5|
-|ᚁ     |deicrimintigh an luach i dtabhall 1|
-|ᚂ     |deicrimintigh an luach i dtabhall 2|
-|ᚃ     |deicrimintigh an luach i dtabhall 3|
-|ᚄ     |deicrimintigh an luach i dtabhall 4|
-|ᚅ     |deicrimintigh an luach i dtabhall 5|
-|᚛x᚜ᚋ  |déan x chomh fada is nach bhfuil 0 i dtabhall 1|
-|᚛x᚜ᚌ  |déan x chomh fada is nach bhfuil 0 i dtabhall 2|
-|᚛x᚜ᚍ  |déan x chomh fada is nach bhfuil 0 i dtabhall 3|
-|᚛x᚜ᚎ  |déan x chomh fada is nach bhfuil 0 i dtabhall 4|
-|᚛x᚜ᚏ  |déan x chomh fada is nach bhfuil 0 i dtabhall 5|
+|Ordú  |Toradh         |
+|----- |---------------|
+|ᚆ     |incrimintigh T1|
+|ᚇ     |incrimintigh T2|
+|ᚈ     |incrimintigh T3|
+|ᚉ     |incrimintigh T4|
+|ᚊ     |incrimintigh T5|
+|ᚁ     |deicrimintigh T1|
+|ᚂ     |deicrimintigh T2|
+|ᚃ     |deicrimintigh T3|
+|ᚄ     |deicrimintigh T4|
+|ᚅ     |deicrimintigh T5|
+|᚛x᚜ᚋ  |déan x chomh fada is T1 != 0|
+|᚛x᚜ᚌ  |déan x chomh fada is T2 != 0|
+|᚛x᚜ᚍ  |déan x chomh fada is T3 != 0|
+|᚛x᚜ᚎ  |déan x chomh fada is T4 != 0|
+|᚛x᚜ᚏ  |déan x chomh fada is T5 != 0|
 |x y   |déan x, ansin y|
 |ᚕ     |stop an meaisín|
 
