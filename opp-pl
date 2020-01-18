@@ -5,4 +5,4 @@ then
 	echo "Má thugtar - mar clar.opp, léann sé an clár ó STDIN"
 	exit 1 
 fi
-cat "${1}" | perl clean.pl | sed -f opp2pl.sed | perl
+cat "${1}" | perl clean.pl | perl opp2pl.pl | perl
