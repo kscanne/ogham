@@ -55,17 +55,16 @@ while (<STDIN>) {
 	$p .= strip($_);
 }
 my $pl = opp2perl($p);
-print "$pl\n";
 my $result = eval($pl);
-if ($result) {
-	print "program halted unexpectedly; missing ᚕ?\n";
+if (defined($result)) {
+	print "program halted unexpectedly; missing ᚕ?\n$pl\n";
 }
 else {
 	if ($@ =~ m/^ok /) {
 		print "program halted as expected\n";
 	}
 	else {
-		print "syntax error in program:\n$@\n";
+		print "syntax error in program:\n$@\n$pl\n";
 	}
 }
 print "registers at end: @r\n";
