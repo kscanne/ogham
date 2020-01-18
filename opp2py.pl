@@ -32,7 +32,7 @@ my %map = (
 
 sub opp2perl {
 	(my $s) = @_;
-	my $ans;
+	my $ans='';
 	my $indent='';
 	while ($s =~ m/(.)/g) {
 		my $c = $1;
@@ -48,7 +48,7 @@ sub opp2perl {
 	return $ans;
 }
 
-my $p;
+my $p='';
 while (<STDIN>) {
 	chomp;
 	$p .= $_;
