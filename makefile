@@ -15,6 +15,6 @@ test: test.sh factorial.opp fourplusfive.opp threetimessix.opp utm.opp FORCE
 	bash test.sh
 
 clean:
-	rm -f factorial.opp fourplusfive.opp threetimessix.opp utm.opp
+	rm -f factorial.opp fourplusfive.opp threetimessix.opp utm.opp a.out
 
 FORCE:
