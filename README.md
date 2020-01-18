@@ -29,7 +29,7 @@ Tacaíonn an teanga leis na horduithe seo a leanas:
 |ᚕ     |stop an meaisín|
 
 
-Déantar neamhaird ar aon charactair eile; mar sin is féidir
+Déantar neamhaird ar aon charachtar eile; mar sin is féidir
 nótaí tráchta a chur in aon áit.
 Seo thíos cúpla ríomhchlár simplí in Ogham++:
 
