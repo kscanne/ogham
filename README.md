@@ -25,7 +25,6 @@ Tacaíonn an teanga leis na horduithe seo a leanas:
 |᚛x᚜ᚍ  |déan x chomh fada is T3 != 0|
 |᚛x᚜ᚎ  |déan x chomh fada is T4 != 0|
 |᚛x᚜ᚏ  |déan x chomh fada is T5 != 0|
-|xy   |déan x, ansin y|
 |ᚕ     |stop an meaisín|
 
 
