@@ -40,7 +40,7 @@ Cuir 4 i T2, cuir 5 i T3, suimigh iad, agus fág an toradh i T2:
 
 Cuir 3 i T2, cuir 6 i T3, iolraigh iad, agus fág an toradh i T2:
 ```
-ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚉ ᚊ ᚂ᚜ᚌ ᚛᚛ᚇ ᚄ᚜ᚎ ᚃ ᚛ᚆ ᚉ ᚅ᚜ᚏ ᚛ᚊ ᚁ᚜ᚋ᚜ᚍ
+ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚉ ᚊ ᚂ᚜ᚌ ᚛᚛ᚇ ᚄ᚜ᚎ ᚃ ᚛ᚆ ᚉ ᚅ᚜ᚏ ᚛ᚊ ᚁ᚜ᚋ᚜ᚍᚕ
 ```
 
 Creid nó ná creid, tá an teanga seo *Turing-iomlán*.
