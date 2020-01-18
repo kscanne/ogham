@@ -27,20 +27,8 @@ my %map = (
 	'ᚎ' => 'while($r[3])',
 	'ᚏ' => 'while($r[4])',
 	' ' => ';',
-	'ᚕ' => ';die "ok";',
+	'ᚕ' => ';print "@r\n";exit(0);',
 );
-
-sub keepok {
-	(my $c) = @_;
-	return $c if exists($map{$c});
-	return '';
-}
-
-sub strip {
-	(my $s) = @_;
-	$s =~ s/(.)/keepok($1)/eg;
-	return $s;
-}
 
 sub opp2perl {
 	(my $s) = @_;
@@ -49,24 +37,10 @@ sub opp2perl {
 }
 
 my $p;
-my @r = (0,0,0,0,0);
 while (<STDIN>) {
 	chomp;
-	$p .= strip($_);
+	$p .= $_;
 }
-my $pl = opp2perl($p);
-my $result = eval($pl);
-if (defined($result)) {
-	print "program halted unexpectedly; missing ᚕ?\n$pl\n";
-}
-else {
-	if ($@ =~ m/^ok /) {
-		print "program halted as expected\n";
-	}
-	else {
-		print "syntax error in program:\n$@\n$pl\n";
-	}
-}
-print "registers at end: @r\n";
+print '@r = (0,0,0,0,0);'.opp2perl($p);
 
 exit 0;
