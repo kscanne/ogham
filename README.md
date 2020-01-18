@@ -28,14 +28,16 @@ Tacaíonn an teanga leis na horduithe seo a leanas:
 |ᚕ     |stop an meaisín|
 
 
-Seo dhuit cúpla ríomhchlár scríofa in Ogham++:
+Déantar neamhaird ar aon charactair eile; mar sin is féidir
+nótaí tráchta a chur in aon áit.
+Seo thíos cúpla ríomhchlár simplí in Ogham++:
 
-Cuir 4 i dtabhall 2, cuir 5 i dtabhall 3, suimigh iad, agus fág an toradh i dtabhall 2:
+Cuir 4 i T2, cuir 5 i T3, suimigh iad, agus fág an toradh i T2:
 ```
 ᚇ ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚇ ᚃ᚜ᚍᚕ
 ```
 
-Cuir 3 i dtabhall 2, cuir 6 i dtabhall 3, iolraigh iad, agus fág an toradh i dtabhall 2:
+Cuir 3 i T2, cuir 6 i T3, iolraigh iad, agus fág an toradh i T2:
 ```
 ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚉ ᚊ ᚂ᚜ᚌ  ᚛᚛ᚇ ᚄ᚜ᚎ  ᚃ  ᚛ᚆ ᚉ ᚅ᚜ᚏ  ᚛ᚊ ᚁ᚜ᚋ᚜ᚍ
 ```
