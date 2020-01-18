@@ -6,7 +6,7 @@ binmode STDERR, ":utf8";
 
 while (<STDIN>) {
 	chomp;
-	s/[^ᚁᚂᚃᚄᚅᚆᚇᚈᚉᚊ᚛᚜ᚋᚌᚍᚎᚏ ᚕ]//g;
+	s/[^ᚁᚂᚃᚄᚅᚆᚇᚈᚉᚊ᚛᚜ᚋᚌᚍᚎᚏᚕ]//g;
 	print;
 }
 
