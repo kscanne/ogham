@@ -28,9 +28,10 @@ Tacaíonn an teanga leis na horduithe seo a leanas:
 |ᚕ     |stop an meaisín|
 
 
-Tabhair faoi deara go seiceáiltear an choinníoll nuair a
+Tabhair faoi deara go seiceáiltear an coinníoll nuair a
 thosaíonn an lúb agus ní dhéanfar aon rud má tá 0 sa tabhall.
-Déantar neamhaird ar aon charachtar eile; mar sin is féidir
+Déantar neamhaird ar aon charachtar eile seachas na cinn sa
+tábla thuas; mar sin is féidir
 nótaí tráchta a chur in aon áit.
 Seo thíos cúpla ríomhchlár simplí in Ogham++:
 
