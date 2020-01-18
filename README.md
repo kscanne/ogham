@@ -43,6 +43,11 @@ Cuir 3 i T2, cuir 6 i T3, iolraigh iad, agus fág an toradh i T2:
 ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚉ ᚊ ᚂ᚜ᚌ ᚛᚛ᚇ ᚄ᚜ᚎ ᚃ ᚛ᚆ ᚉ ᚅ᚜ᚏ ᚛ᚊ ᚁ᚜ᚋ᚜ᚍᚕ
 ```
 
+Cuir 7 i T2, ríomh 7! agus fág an toradh i T2:
+```
+ᚇ ᚇ ᚇ ᚇ ᚇ ᚇ ᚇ ᚛ᚆ ᚂ᚜ᚌ ᚛ᚇ ᚈ ᚁ᚜ᚋ ᚃ ᚛᚛ᚉ ᚊ ᚃ᚜ᚍ ᚛᚛ᚈ ᚄ᚜ᚎ ᚂ ᚛ᚆ ᚉ ᚅ᚜ᚏ ᚛ᚊ ᚁ᚜ᚋ᚜ᚌ ᚛ᚃ ᚇ᚜ᚍ ᚛ᚄ ᚅ ᚈ᚜ᚏ ᚃ᚜ᚍᚕ
+```
+
 Creid nó ná creid, tá an teanga seo *Turing-iomlán*.
 Féach http://www.iwriteiam.nl/Ha_bf_Turing.html.
 Seo meaisín uilíoch Turing bunaithe ar an leagan URM ó
