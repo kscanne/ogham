@@ -1,8 +1,9 @@
 Ogham++: teanga ríomhchlárúcháin oghmóireachta
 ----------------------------------------------
 
-Tá an teanga bunaithe ar “mheaisín tabhall” a úsáideann
-cúig thabhall darb ainm T1, T2, T3, T4, agus T5.
+Tá an teanga bunaithe ar
+[mheaisín tabhall](https://en.wikipedia.org/wiki/Register_machine)
+a úsáideann cúig thabhall darb ainm T1, T2, T3, T4, agus T5.
 Cuirtear luach 0 i ngach tabhall nuair a thosaíonn an meaisín.
 
 Tacaíonn an teanga leis na horduithe seo a leanas:
