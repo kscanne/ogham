@@ -20,35 +20,34 @@ Tacaíonn an teanga leis na horduithe seo a leanas:
 |ᚃ     |deicrimintigh T3|
 |ᚄ     |deicrimintigh T4|
 |ᚅ     |deicrimintigh T5|
-|᚛x᚜ᚋ  |déan x go dtí gur T1 == 0|
-|᚛x᚜ᚌ  |déan x go dtí gur T2 == 0|
-|᚛x᚜ᚍ  |déan x go dtí gur T3 == 0|
-|᚛x᚜ᚎ  |déan x go dtí gur T4 == 0|
-|᚛x᚜ᚏ  |déan x go dtí gur T5 == 0|
-|x y   |déan x, ansin y|
+|᚛x᚜ᚋ  |déan x chomh fada is T1 != 0|
+|᚛x᚜ᚌ  |déan x chomh fada is T2 != 0|
+|᚛x᚜ᚍ  |déan x chomh fada is T3 != 0|
+|᚛x᚜ᚎ  |déan x chomh fada is T4 != 0|
+|᚛x᚜ᚏ  |déan x chomh fada is T5 != 0|
+|xy   |déan x, ansin y|
 |ᚕ     |stop an meaisín|
 
 
-Tabhair faoi deara go ndéantar na
-lúba uair amháin ar a laghad sa stíl “do/while”;
-ní ionann é seo agus iompar bf agus URM.
+Tabhair faoi deara go seiceáiltear an choinníoll nuair a
+thosaíonn an lúb agus ní dhéanfar aon rud má tá 0 sa tabhall.
 Déantar neamhaird ar aon charachtar eile; mar sin is féidir
 nótaí tráchta a chur in aon áit.
 Seo thíos cúpla ríomhchlár simplí in Ogham++:
 
 Cuir 4 i T2, cuir 5 i T3, suimigh iad, agus fág an toradh i T2:
 ```
-ᚇ ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚇ ᚃ᚜ᚍᚕ
+ᚇᚇᚇᚇᚈᚈᚈᚈᚈ᚛ᚇᚃ᚜ᚍᚕ
 ```
 
 Cuir 3 i T2, cuir 6 i T3, iolraigh iad, agus fág an toradh i T2:
 ```
-ᚇ ᚇ ᚇ ᚈ ᚈ ᚈ ᚈ ᚈ ᚈ ᚛ᚉ ᚊ ᚂ᚜ᚌ ᚛᚛ᚇ ᚄ᚜ᚎ ᚃ ᚛ᚆ ᚉ ᚅ᚜ᚏ ᚛ᚊ ᚁ᚜ᚋ᚜ᚍᚕ
+ᚇᚇᚇᚈᚈᚈᚈᚈᚈ᚛ᚉᚊᚂ᚜ᚌ᚛᚛ᚇᚄ᚜ᚎᚃ᚛ᚆᚉᚅ᚜ᚏ᚛ᚊᚁ᚜ᚋ᚜ᚍᚕ
 ```
 
 Cuir 7 i T2, ríomh 7! agus fág an toradh i T2:
 ```
-ᚇ ᚇ ᚇ ᚇ ᚇ ᚇ ᚇ ᚛ᚆ ᚂ᚜ᚌ ᚛ᚇ ᚈ ᚁ᚜ᚋ ᚃ ᚛᚛ᚉ ᚊ ᚃ᚜ᚍ ᚛᚛ᚈ ᚄ᚜ᚎ ᚂ ᚛ᚆ ᚉ ᚅ᚜ᚏ ᚛ᚊ ᚁ᚜ᚋ᚜ᚌ ᚛ᚃ ᚇ᚜ᚍ ᚛ᚄ ᚅ ᚈ᚜ᚏ ᚃ᚜ᚍᚕ
+ᚇᚇᚇᚇᚇᚇᚇ᚛ᚆᚂ᚜ᚌ᚛ᚇᚈᚁ᚜ᚋᚃ᚛᚛ᚉᚊᚃ᚜ᚍ᚛᚛ᚈᚄ᚜ᚎᚂ᚛ᚆᚉᚅ᚜ᚏ᚛ᚊᚁ᚜ᚋ᚜ᚌ᚛ᚃᚇ᚜ᚍ᚛ᚄᚅᚈ᚜ᚏᚃ᚜ᚍᚕ
 ```
 
 Creid nó ná creid, tá an teanga seo *Turing-iomlán*.
@@ -56,5 +55,5 @@ Féach http://www.iwriteiam.nl/Ha_bf_Turing.html.
 Seo meaisín uilíoch Turing bunaithe ar an leagan URM ó
 http://www.hevanet.com/cristofd/brainfuck/urmutm.txt
 ```
-᚛ᚃ ᚛ᚉ ᚉ ᚉ ᚉ ᚉ ᚉ ᚃ᚜ᚍ ᚛ᚇ ᚇ ᚁ᚜ᚋ ᚛ᚆ ᚆ ᚆ ᚂ᚜ᚌ ᚛ᚉ ᚅ ᚛ᚉ ᚅ ᚛ᚉ ᚅ ᚛ᚉ ᚅ ᚛ᚉ ᚅ ᚛ᚄ ᚄ ᚄ ᚄ ᚄ ᚈ ᚅ ᚛ᚇ ᚅ᚜ᚏ᚜ᚏ᚜ᚏ᚜ᚏ᚜ᚏ᚜ᚏ ᚛ᚊ ᚂ᚜ᚌ᚜ᚏ ᚛ᚊ ᚃ᚜ᚍ ᚈ ᚇ ᚆ ᚆ ᚆ ᚛ᚄ ᚛ᚂ ᚆ ᚄ ᚛ᚁ ᚁ ᚁ ᚁ ᚄ ᚛ᚇ ᚆ ᚆ ᚄ ᚛ᚈ ᚈ ᚈ ᚂ ᚁ ᚁ ᚄ ᚛ᚃ ᚃ ᚇ ᚆ ᚄ ᚛ᚂ ᚁ ᚄ ᚛ᚈ ᚇ ᚆ ᚆ ᚆ ᚆ ᚄ ᚛ᚃ ᚄ ᚛ᚂ ᚁ ᚄ ᚛ᚁ ᚄ ᚛ᚃ ᚆ ᚆ ᚆ ᚄ ᚛ᚈ ᚈ ᚁ ᚁ ᚁ ᚁ ᚄ ᚛ᚈ ᚆ ᚆ ᚄ ᚛᚛ᚃ᚜ᚍ ᚄ ᚛ᚈ ᚈ ᚈ ᚁ ᚄ ᚛ᚃ ᚃ ᚁ ᚄ ᚛ᚈ ᚇ ᚆ ᚆ ᚆ ᚆ ᚄ ᚛ᚈ ᚈ ᚂ ᚁ ᚁ ᚁ ᚁ ᚁ ᚄ ᚛ᚃ ᚃ ᚇ ᚆ ᚆ ᚆ ᚆ ᚆ ᚄ ᚛ᚈ ᚈ ᚂ ᚁ ᚁ ᚄ ᚄ ᚛ᚁ ᚄ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ ᚛ᚂ ᚛ᚇ ᚇ ᚇ ᚇ ᚇ ᚇ ᚅ᚜ᚏ ᚛ᚇ ᚁ ᚛ᚇ ᚁ ᚛ᚇ ᚁ ᚛ᚇ ᚁ ᚛ᚇ ᚁ ᚛ᚂ ᚂ ᚂ ᚂ ᚂ ᚉ ᚁ ᚛ᚊ ᚁ᚜ᚋ᚜ᚋ᚜ᚋ᚜ᚋ᚜ᚋ᚜ᚋ ᚛ᚆ ᚅ᚜ᚏ᚜ᚋ ᚛ᚊ ᚊ ᚊ ᚊ ᚊ ᚊ ᚂ᚜ᚌ ᚛ᚊ ᚄ ᚛ᚊ ᚄ ᚛ᚊ ᚄ ᚛ᚊ ᚄ ᚛ᚊ ᚄ ᚛ᚅ ᚅ ᚅ ᚅ ᚅ ᚆ ᚄ ᚛ᚇ ᚄ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ ᚛ᚉ ᚂ᚜ᚌ᚜ᚎ᚜ᚌ᚜ᚍᚕ
+᚛ᚃ᚛ᚉᚉᚉᚉᚉᚉᚃ᚜ᚍ᚛ᚇᚇᚁ᚜ᚋ᚛ᚆᚆᚆᚂ᚜ᚌ᚛ᚉᚅ᚛ᚉᚅ᚛ᚉᚅ᚛ᚉᚅ᚛ᚉᚅ᚛ᚄᚄᚄᚄᚄᚈᚅ᚛ᚇᚅ᚜ᚏ᚜ᚏ᚜ᚏ᚜ᚏ᚜ᚏ᚜ᚏ᚛ᚊᚂ᚜ᚌ᚜ᚏ᚛ᚊᚃ᚜ᚍᚈᚇᚆᚆᚆ᚛ᚄ᚛ᚂᚆᚄ᚛ᚁᚁᚁᚁᚄ᚛ᚇᚆᚆᚄ᚛ᚈᚈᚈᚂᚁᚁᚄ᚛ᚃᚃᚇᚆᚄ᚛ᚂᚁᚄ᚛ᚈᚇᚆᚆᚆᚆᚄ᚛ᚃᚄ᚛ᚂᚁᚄ᚛ᚁᚄ᚛ᚃᚆᚆᚆᚄ᚛ᚈᚈᚁᚁᚁᚁᚄ᚛ᚈᚆᚆᚄ᚛᚛ᚃ᚜ᚍᚄ᚛ᚈᚈᚈᚁᚄ᚛ᚃᚃᚁᚄ᚛ᚈᚇᚆᚆᚆᚆᚄ᚛ᚈᚈᚂᚁᚁᚁᚁᚁᚄ᚛ᚃᚃᚇᚆᚆᚆᚆᚆᚄ᚛ᚈᚈᚂᚁᚁᚄᚄ᚛ᚁᚄ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚛ᚂ᚛ᚇᚇᚇᚇᚇᚇᚅ᚜ᚏ᚛ᚇᚁ᚛ᚇᚁ᚛ᚇᚁ᚛ᚇᚁ᚛ᚇᚁ᚛ᚂᚂᚂᚂᚂᚉᚁ᚛ᚊᚁ᚜ᚋ᚜ᚋ᚜ᚋ᚜ᚋ᚜ᚋ᚜ᚋ᚛ᚆᚅ᚜ᚏ᚜ᚋ᚛ᚊᚊᚊᚊᚊᚊᚂ᚜ᚌ᚛ᚊᚄ᚛ᚊᚄ᚛ᚊᚄ᚛ᚊᚄ᚛ᚊᚄ᚛ᚅᚅᚅᚅᚅᚆᚄ᚛ᚇᚄ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚜ᚎ᚛ᚉᚂ᚜ᚌ᚜ᚎ᚜ᚌ᚜ᚍᚕ
 ```
