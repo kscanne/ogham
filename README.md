@@ -20,15 +20,18 @@ Tacaíonn an teanga leis na horduithe seo a leanas:
 |ᚃ     |deicrimintigh T3|
 |ᚄ     |deicrimintigh T4|
 |ᚅ     |deicrimintigh T5|
-|᚛x᚜ᚋ  |déan x chomh fada is T1 != 0|
-|᚛x᚜ᚌ  |déan x chomh fada is T2 != 0|
-|᚛x᚜ᚍ  |déan x chomh fada is T3 != 0|
-|᚛x᚜ᚎ  |déan x chomh fada is T4 != 0|
-|᚛x᚜ᚏ  |déan x chomh fada is T5 != 0|
+|᚛x᚜ᚋ  |déan x go dtí gur T1 == 0|
+|᚛x᚜ᚌ  |déan x go dtí gur T2 == 0|
+|᚛x᚜ᚍ  |déan x go dtí gur T3 == 0|
+|᚛x᚜ᚎ  |déan x go dtí gur T4 == 0|
+|᚛x᚜ᚏ  |déan x go dtí gur T5 == 0|
 |x y   |déan x, ansin y|
 |ᚕ     |stop an meaisín|
 
 
+Tabhair faoi deara go ndéantar na
+lúba uair amháin ar a laghad sa stíl “do/while”;
+ní ionann é seo agus iompar bf agus URM.
 Déantar neamhaird ar aon charachtar eile; mar sin is féidir
 nótaí tráchta a chur in aon áit.
 Seo thíos cúpla ríomhchlár simplí in Ogham++:
