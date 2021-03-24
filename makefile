@@ -1,3 +1,4 @@
+all: factorial.opp fourplusfive.opp threetimessix.opp
 
 factorial.opp: factorial.urm
 	cat factorial.urm | sed -f urm2opp.sed > $@
