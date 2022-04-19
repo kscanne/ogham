@@ -1,30 +1,6 @@
 from lark import Lark
-
-my_grammar = """
-start: command+
-
-?command: primitive | loop
-
-primitive: "ᚆ" -> inc1
-            | "ᚇ" -> inc2
-            | "ᚈ" -> inc3
-            | "ᚉ" -> inc4
-            | "ᚊ" -> inc5
-            | "ᚁ" -> dec1
-            | "ᚂ" -> dec2
-            | "ᚃ" -> dec3
-            | "ᚄ" -> dec4
-            | "ᚅ" -> dec5
-            | "ᚕ" -> halt
-
-loop: "᚛" command+ "᚜ᚋ" -> loop1
-        | "᚛" command+ "᚜ᚌ" -> loop2
-        | "᚛" command+ "᚜ᚍ" -> loop3
-        | "᚛" command+ "᚜ᚎ" -> loop4
-        | "᚛" command+ "᚜ᚏ" -> loop5
-
-%ignore /[^ᚁᚂᚃᚄᚅᚆᚇᚈᚉᚊᚋᚌᚍᚎᚏᚕ᚛᚜]/
-"""
+import sys
+sys.stdin.reconfigure(encoding='utf-8')
 
 # returns a boolean "halted?"
 def execute(t, env):
@@ -47,8 +23,10 @@ def execute(t, env):
     raise SyntaxError("bad tree")
   return False
 
+with open('ogham.lark', 'r', encoding="utf-8") as f:
+  my_grammar = f.read()
 parser = Lark(my_grammar)
-program = "ᚇᚇᚇᚇᚇᚇᚇ᚛ᚆᚂ᚜ᚌ᚛ᚇᚈᚁ᚜ᚋᚃ᚛᚛ᚉᚊᚃ᚜ᚍ᚛᚛ᚈᚄ᚜ᚎᚂ᚛ᚆᚉᚅ᚜ᚏ᚛ᚊᚁ᚜ᚋ᚜ᚌ᚛ᚃᚇ᚜ᚍ᚛ᚄᚅᚈ᚜ᚏᚃ᚜ᚍᚕ"
+program = sys.stdin.read()
 parse_tree = parser.parse(program)
 mem = [0]*5
 execute(parse_tree, mem)
