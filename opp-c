@@ -6,7 +6,7 @@ then
 	exit 1 
 fi
 TMPFILE='./sealadach.c'
-cat "${1}" | perl clean.pl | perl opp2c.pl > $TMPFILE
+cat "${1}" | python3 opp2c.py > $TMPFILE
 gcc -o ./a.out $TMPFILE
 ./a.out
 rm -f ${TMPFILE} ./a.out
