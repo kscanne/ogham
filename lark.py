@@ -26,12 +26,14 @@ loop: "᚛" command+ "᚜ᚋ" -> loop1
 %ignore /[^ᚁᚂᚃᚄᚅᚆᚇᚈᚉᚊᚋᚌᚍᚎᚏᚕ᚛᚜]/
 """
 
+# returns a boolean "halted?"
 def execute(t, env):
   if t.data == 'start':
     for child in t.children:
-      execute(child,env)
+      if execute(child,env):
+        return True
   elif t.data == 'halt':
-    return
+    return True
   elif t.data[0:3] == 'inc':
     env[int(t.data[3])-1] += 1
   elif t.data[0:3] == 'dec':
@@ -39,9 +41,11 @@ def execute(t, env):
   elif t.data[0:4] == 'loop':
     while env[int(t.data[4])-1]!=0:
       for child in t.children:
-        execute(child,env)
+        if execute(child,env):
+          return True
   else:
     raise SyntaxError("bad tree")
+  return False
 
 parser = Lark(my_grammar)
 program = "ᚇᚇᚇᚇᚇᚇᚇ᚛ᚆᚂ᚜ᚌ᚛ᚇᚈᚁ᚜ᚋᚃ᚛᚛ᚉᚊᚃ᚜ᚍ᚛᚛ᚈᚄ᚜ᚎᚂ᚛ᚆᚉᚅ᚜ᚏ᚛ᚊᚁ᚜ᚋ᚜ᚌ᚛ᚃᚇ᚜ᚍ᚛ᚄᚅᚈ᚜ᚏᚃ᚜ᚍᚕ"
