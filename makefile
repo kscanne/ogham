@@ -12,7 +12,7 @@ threetimessix.opp: threetimessix.urm
 utm.opp: utm.urm
 	cat utm.urm | sed -f urm2opp.sed > $@
 
-test: test.sh factorial.opp fourplusfive.opp threetimessix.opp utm.opp FORCE
+test: test.sh factorial.opp fourplusfive.opp threetimessix.opp FORCE
 	bash test.sh
 
 clean:
