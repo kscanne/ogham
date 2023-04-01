@@ -5,6 +5,7 @@ Tá an teanga bunaithe ar
 [mheaisín tabhall](https://en.wikipedia.org/wiki/Register_machine)
 a úsáideann cúig thabhall darb ainm T1, T2, T3, T4, agus T5.
 Cuirtear luach 0 i ngach tabhall nuair a thosaíonn an meaisín.
+Níl aon teorainn leis na slánuimhreacha is féidir a stóráil sna tabhaill seo.
 
 Tacaíonn an teanga leis na horduithe seo a leanas:
 
