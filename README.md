@@ -1,6 +1,6 @@
 Ogham++: teanga ríomhchlárúcháin oghmóireachta
 ----------------------------------------------
-(For a description in English,
+For a description in English,
 see our page on the [Esolang Wiki](https://esolangs.org/wiki/Ogham%2B%2B).
 
 Tá an teanga bunaithe ar
